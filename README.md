@@ -13,7 +13,7 @@ Intial state of the simulation stored in data/initialState.txt:
 where each line is of format:
 `car_name initial_position initial_lane initial_speed`
 
-CLI arguments:
+main.py CLI arguments:
 * initial state file name: path to initial state file
 * output file name: path to output data file
 * random initial state: True / False - specifies. whether initial state of the simulation will be generated automatically or loaded from initialState.txt file
