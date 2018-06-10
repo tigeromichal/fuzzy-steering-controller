@@ -1,0 +1,28 @@
+<sets>
+    <set what="acceleration">
+        <subset value="slow_acc">
+            <point x="0.0" y="0"></point>
+            <point x="0.5" y="1"></point>
+            <point x="0.7" y="1"></point>
+            <point x="1.2" y="0"></point>
+        </subset>
+        <subset value="fast_acc">
+            <point x="0.9" y="0"></point>
+            <point x="1.2" y="1"></point>
+            <point x="1.4" y="1"></point>
+            <point x="1.7" y="0"></point>
+        </subset>
+        <subset value="slow_dec">
+            <point x="-10" y="0"></point>
+            <point x="-5.5" y="1"></point>
+            <point x="-4.5" y="1"></point>
+            <point x="0" y="0"></point>
+        </subset>
+        <subset value="fast_dec">
+            <point x="-12" y="0"></point>
+            <point x="-8.5" y="1"></point>
+            <point x="-7.5" y="1"></point>
+            <point x="-6" y="0"></point>
+        </subset>
+    </set>
+</sets>

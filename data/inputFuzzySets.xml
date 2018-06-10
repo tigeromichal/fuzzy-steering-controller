@@ -1,0 +1,128 @@
+<sets>
+    <set what="v_A">
+        <subset value="slow">
+            <point x="-1" y="0"></point>
+            <point x="-0.5" y="1"></point>
+            <point x="8" y="1"></point>
+            <point x="13" y="0"></point>
+        </subset>
+        <subset value="medium">
+            <point x="8" y="0"></point>
+            <point x="13" y="1"></point>
+            <point x="16" y="1"></point>
+            <point x="21" y="0"></point>
+        </subset>
+        <subset value="fast">
+            <point x="16" y="0"></point>
+            <point x="21" y="1"></point>
+            <point x="25.5" y="1"></point>
+            <point x="26" y="0"></point>
+        </subset>
+    </set>
+    <set what="v_B">
+        <subset value="slow">
+            <point x="0" y="0"></point>
+            <point x="5" y="1"></point>
+            <point x="8" y="1"></point>
+            <point x="13" y="0"></point>
+        </subset>
+        <subset value="medium">
+            <point x="8" y="0"></point>
+            <point x="13" y="1"></point>
+            <point x="16" y="1"></point>
+            <point x="21" y="0"></point>
+        </subset>
+        <subset value="fast">
+            <point x="16" y="0"></point>
+            <point x="21" y="1"></point>
+            <point x="25" y="1"></point>
+            <point x="26" y="0"></point>
+        </subset>
+    </set>
+    <set what="v_C">
+        <subset value="slow">
+            <point x="0" y="0"></point>
+            <point x="5" y="1"></point>
+            <point x="8" y="1"></point>
+            <point x="13" y="0"></point>
+        </subset>
+        <subset value="medium">
+            <point x="8" y="0"></point>
+            <point x="13" y="1"></point>
+            <point x="16" y="1"></point>
+            <point x="21" y="0"></point>
+        </subset>
+        <subset value="fast">
+            <point x="16" y="0"></point>
+            <point x="21" y="1"></point>
+            <point x="25" y="1"></point>
+            <point x="26" y="0"></point>
+        </subset>
+    </set>
+    <set what="d_BA">
+        <subset value="behind">
+            <point x="0" y="1"></point>
+            <point x="0.5" y="0"></point>
+        </subset>
+        <subset value="too_close">
+            <point x="0" y="0"></point>
+            <point x="1" y="1"></point>
+            <point x="3" y="1"></point>
+            <point x="4" y="0"></point>
+        </subset>
+        <subset value="close">
+            <point x="2" y="0"></point>
+            <point x="4" y="1"></point>
+            <point x="50" y="1"></point>
+            <point x="60" y="0"></point>
+        </subset>
+        <subset value="far">
+            <point x="50" y="0"></point>
+            <point x="100" y="1"></point>
+        </subset>
+    </set>
+    <set what="d_CA">
+        <subset value="behind">
+            <point x="0" y="1"></point>
+            <point x="0.5" y="0"></point>
+        </subset>
+        <subset value="too_close">
+            <point x="0" y="0"></point>
+            <point x="1" y="1"></point>
+            <point x="3" y="1"></point>
+            <point x="4" y="0"></point>
+        </subset>
+        <subset value="close">
+            <point x="2" y="0"></point>
+            <point x="4" y="1"></point>
+            <point x="50" y="1"></point>
+            <point x="60" y="0"></point>
+        </subset>
+        <subset value="far">
+            <point x="50" y="0"></point>
+            <point x="100" y="1"></point>
+        </subset>
+    </set>
+    <set what="d_endA">
+        <subset value="close">
+            <point x="-1" y="0"></point>
+            <point x="0" y="1"></point>
+            <point x="50" y="1"></point>
+            <point x="100" y="0"></point>
+        </subset>
+        <subset value="far">
+            <point x="75" y="0"></point>
+            <point x="200" y="1"></point>
+        </subset>
+    </set>
+    <set what="lane_A">
+        <subset value="left">
+            <point x="0" y="1"></point>
+            <point x="1" y="0"></point>
+        </subset>
+        <subset value="right">
+            <point x="0" y="0"></point>
+            <point x="1" y="1"></point>
+        </subset>
+    </set>
+</sets>

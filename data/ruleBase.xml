@@ -1,0 +1,60 @@
+<rules>
+    <!-- if car B far, speed up -->
+    <rule>
+        <antecedent what="lane_A">right</antecedent>
+        <antecedent what="d_BA">far</antecedent>
+        <consequent>fast_acc</consequent>
+    </rule>
+    <!-- if car B close, speed up slowly -->
+    <rule>
+        <antecedent what="lane_A">right</antecedent>
+        <antecedent what="d_BA">close</antecedent>
+        <consequent>slow_acc</consequent>
+    </rule>
+    <!-- if car B behind, speed up -->
+    <rule>
+        <antecedent what="lane_A">right</antecedent>
+        <antecedent what="d_BA">behind</antecedent>
+        <consequent>fast_acc</consequent>
+    </rule>
+    <!-- if car B too close slow down fast -->
+    <rule>
+        <antecedent what="d_BA">too_close</antecedent>
+        <antecedent what="lane_A">right</antecedent>
+        <consequent>fast_dec</consequent>
+    </rule>
+    <!-- if car B close and going slowly slow down a little -->
+    <rule>
+        <antecedent what="d_BA">close</antecedent>
+        <antecedent what="v_B">slow</antecedent>
+        <antecedent what="lane_A">right</antecedent>
+        <consequent>slow_dec</consequent>
+    </rule>
+    <!-- if car C too close slow down fast -->
+    <rule>
+        <antecedent what="d_CA">too_close</antecedent>
+        <antecedent what="lane_A">left</antecedent>
+        <consequent>fast_dec</consequent>
+    </rule>
+    <!-- if car C close slow down slowly -->
+    <rule>
+        <antecedent what="d_CA">close</antecedent>
+        <antecedent what="lane_A">left</antecedent>
+        <antecedent what="v_A">medium</antecedent>
+        <consequent>slow_dec</consequent>
+    </rule>
+    <!-- if car C close and car A going fast slow down fast -->
+    <rule>
+        <antecedent what="d_CA">close</antecedent>
+        <antecedent what="lane_A">left</antecedent>
+        <antecedent what="v_A">fast</antecedent>
+        <consequent>fast_dec</consequent>
+    </rule>
+    <!-- if on the left lane and both cars close slow down -->
+    <rule>
+        <antecedent what="lane_A">left</antecedent>
+        <antecedent what="d_CA">close</antecedent>
+        <antecedent what="d_BA">close</antecedent>
+        <consequent>slow_dec</consequent>
+    </rule>
+</rules>
